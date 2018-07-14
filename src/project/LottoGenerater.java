@@ -34,7 +34,7 @@ public class LottoGenerater {
     public boolean contains2(Set<Integer> generated, int num){
         return generated.contains(num);
     }
-    
+
     public static void main(String[] args){
         int[] result = new LottoGenerater().generate();
         System.out.println(Arrays.toString(result));
